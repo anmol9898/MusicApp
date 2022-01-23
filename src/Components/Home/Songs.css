@@ -1,0 +1,6 @@
+.Song-box{
+    background-color: rgb(31, 31, 31);
+    border:2px solid rgb(97, 88, 88);
+    border-radius: 5px;
+    /* margin:2rem 0.5rem; */
+}

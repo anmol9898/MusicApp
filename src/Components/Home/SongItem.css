@@ -31,28 +31,41 @@
 }
 
 .song-item img{
-  height: 10vh;
-  width:10vh;
+  
   border-radius: 20px;
   background-repeat: no-repeat;
+  /* max-height: 90px;
+  max-width: 80px; */
+
+  height: 5rem;
+  width: 5.5rem;
+
+  /* height: 80%;
+  width: 20%; */
 }
 .song-item button{
   border:1px solid brown;
   border-radius:50px;
   padding: .5rem;
   cursor:pointer;
+  width: 3rem;
+  height:3rem;
+  box-sizing: border-box;
 }
 .song-item button img{
-  width: 5vh;
-  height: 5vh;
+  
 border-radius: 100px;
+width: 90%;
+height:100%;
 }
 .song-item__length{
   font-size: 1rem;
 }
 
 .menu-img{
-  width: 3vh !important;
-  height: 3vh  !important;
+  /* width: 1.5rem !important;
+  height:1rem  !important; */
+  width: 4% !important;
+  height:25%  !important;
   cursor: pointer;
 }

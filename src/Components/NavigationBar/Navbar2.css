@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+nav {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(173, 2, 2);
+}
+nav .navbar {
+  display: flex;
+  padding: 0 1.5rem;
+
+  height: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-around;
+  /* white-space: nowrap; */
+}
+
+.navbar .branding img {
+  height: 4em;
+  width: 5em;
+}
+
+.navbar .branding a {
+  font-size: 3.25rem;
+  color: #eeeeee;
+  font-weight: 800;
+  font-style: none;
+  text-decoration: none;
+  /* padding: 1.5rem 1rem; */
+  margin: 1rem;
+}
+.navbar .nav-links {
+  display: flex;
+  margin: auto;
+  line-height: 4rem;
+  height: 100%;
+  font-weight: bold;
+  align-items: center;
+}
+.navbar .nav-links ul {
+  display: flex;
+  /* text-decoration: none; */
+  list-style: none;
+}
+.navbar .nav-links .links {
+  position: fixed;
+  display: flex;
+}
+.navbar .nav-links .links li {
+  padding: 0 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  height: 100%;
+  line-height: 4rem;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-links .links li a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  white-space: nowrap;
+  /* background: cyan; */
+}
+.navbar .nav-links .links li .arrow {
+  height: 100%;
+  align-items: center;
+  width: 1.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.75rem;
+  transition: all ease 0.3s;
+}
+.navbar .nav-links .links li .arrow:hover{
+    cursor: pointer;
+}
+.navbar .nav-links .links li:hover .arrow1,
+.navbar .nav-links .links li:hover .arrow2,
+.navbar .nav-links .links li:hover .arrow3 {
+  transform: rotate(180deg);
+}
+
+.navbar .nav-links .links .submenu{
+    background-color:  rgb(173, 2, 2);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3.5rem;
+    border-radius: 0 0 14px 14px;
+    box-shadow: 12px 12px 12px rgba(248, 245, 245, 0.2);
+    overflow: hidden;
+    display: none;
+    /* transition: all step-end 0.2s; */
+
+}
+.navbar .nav-links .links .submenu li{
+    left: 0;
+    border-top: 9px solid rgba(65, 60, 60, 0.3);
+    border-bottom: 1px solid black;
+    line-height: 3rem;
+}
+.navbar .nav-links .links .submenu li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 1em;
+    font:300 ;
+}
+
+.navbar .nav-links .links li:hover .submenu-1,
+.navbar .nav-links .links li:hover .submenu-2,
+.navbar .nav-links .links li:hover .submenu-3{
+display: block;
+}
+
+.navbar .nav-links .links .submenu li .more-arrow{
+    line-height: 3.5rem;
+}
+
+.navbar .nav-links .links  .more .submenu-more{
+    /* position: absolute; */
+    top: 0;
+    left: 100%;
+}

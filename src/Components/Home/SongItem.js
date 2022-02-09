@@ -17,7 +17,9 @@ const SongItem = (props) => {
     setViewCount(viewCount + 1);
     localStorage.setItem(props.id, viewCount);
   };
-
+const playHandler=()=>{
+  
+}
   //    useEffect(()=>{
   //       if(localStorage.getItem(props.id)===null){
   //          setViewCount(0);
@@ -37,7 +39,7 @@ const SongItem = (props) => {
         <h4 onClick={viewHandler}>{props.name}</h4>
         <div>{props.singer}</div>
       </div>
-      <button onClick={viewHandler}>
+      <button onClick={viewHandler ,playHandler}>
         <img src="/Assets/play.png"></img>
       </button>
 

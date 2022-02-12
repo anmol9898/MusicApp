@@ -19,6 +19,9 @@ const SongItem = (props) => {
   };
 const playHandler=()=>{
   
+
+
+  
 }
   //    useEffect(()=>{
   //       if(localStorage.getItem(props.id)===null){

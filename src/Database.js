@@ -69,4 +69,40 @@ export const Database = [{
         length: "4:00",
         image: "Assets/song3.jpeg"
     },
+    {
+        id: 11,
+        name: "krish3",
+        singer: "sonu nigam",
+        length: "4:00",
+        image: "Assets/song3.jpeg",
+        people:{
+            "director" : "salman khan",
+            "publisher" : "salman khan productions"
+        }
+    },
+    {
+        id: 12,
+        name: "krish4",
+        singer: "sonu nigam",
+        length: "4:00",
+        image: "Assets/song3.jpeg",
+        people:{
+            "director" : "salman khan",
+            "publisher" : "salman khan productions"
+        },
+        albums:["love","sad","remember"]
+    },
+    {
+        id: 13,
+        name: "krish5",
+        singer: "sonu nigam",
+        length: "4:00",
+        image: "Assets/song3.jpeg",
+        people:{
+            "director" : "salman khan",
+            "publisher" : "salman khan productions"
+        },
+        albums:["love","sad","remember"]
+    }
+    
 ];

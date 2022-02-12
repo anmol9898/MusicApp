@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .playbox{
     display: flex;
     box-sizing: border-box;

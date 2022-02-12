@@ -1,7 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .Song-box{
     background-color: rgb(31, 31, 31);
     border:2px solid rgb(97, 88, 88);
     border-radius: 5px;
-    min-height: 80vh;
+    height: 50rem;
+    /* min-height: 70vh; */
+    overflow: scroll;
+    overflow-x: hidden;
     /* margin:2rem 0.5rem; */
+
+    /* scrollbar */
+    --scrollbarBG:#fff;
+    --thumbBG:#e93c11;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
+
 }
+.Song-box::-webkit-scrollbar{
+    width:18px;
+}
+.Song-box::-webkit-scrollbar-track{
+    background-color: var(--scrollbarBG);
+}
+
+.Song-box::-webkit-scrollbar-thumb{
+    background-color: var(--thumbBG);
+    border-radius: 15px;
+    border: 3px solid var(--scrollbarBG);
+
+
+}
+
+

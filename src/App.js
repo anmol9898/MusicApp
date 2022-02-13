@@ -10,7 +10,10 @@ function App(props) {
  
   return (
     <div className="App">
+      <div className="nav">
+
       <Navbar/>
+      </div>
       <header className="App-header">
 
       <input type="checkbox" id="check"></input>

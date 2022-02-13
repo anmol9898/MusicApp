@@ -22,7 +22,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.nav{
+  position: absolute;
+}
 /* Menu buttons */
 #check{
   display: none;

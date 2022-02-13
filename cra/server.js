@@ -13,7 +13,7 @@ app.use(morgan('tiny'));
 
 const MONGODB_application = "mongodb+srv://mongo:anmol1234@cluster0.shqjs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 // const MONGODB_application_music = "mongodb+srv://mongo:anmol1234@cluster0.shqjs.mongodb.net/music?retryWrites=true&w=majority";
-// dummy comment
+
 mongoose.connect(MONGODB_application,
     // mongoose.connect( "localhost://27017",
     {
@@ -77,15 +77,6 @@ app.get('/api/name', (req, res) => {
     };
     res.json(data);
 });
-// dummy data for comit
-app.get('/api/name/name2', (req, res) => {
-    const data = {
-        username: "simran",
-        age: 24
-    };
-    res.json(data);
-});
-
 
 
 app.listen(PORT, () => console.log(`Server is starting at ${PORT}`));

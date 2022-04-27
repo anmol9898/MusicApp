@@ -4,6 +4,7 @@ export const Database = [{
         singer: "hardy sandhu",
         length: "5:30",
         image: "/Assets/song1.jpeg",
+        viewcount:0,
         
     },
     {
@@ -12,6 +13,7 @@ export const Database = [{
         singer: "akull",
         length: "2:30",
         image: "/Assets/song2.jpeg",
+        viewcount:0,
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ export const Database = [{
         singer: "milind gaba",
         length: "3:30",
         image: "/Assets/song3.jpeg",
+        viewcount:0,
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ export const Database = [{
         singer: "kumar sanu",
         length: "4:30",
         image: "/Assets/song4.jpeg",
+        viewcount:0,
     },
     {
         id: 5,
@@ -33,41 +37,47 @@ export const Database = [{
         singer: "kumar raj",
         length: "4:30",
         image: "Assets/song1.jpeg",
+        viewcount:0,
     },
     {
         id: 6,
         name: "takrar",
         singer: "kumar",
         length: "4:00",
-        image: "Assets/song4.jpeg"
+        image: "Assets/song4.jpeg",
+        viewcount:0,
     },
     {
         id: 7,
         name: "ikraar",
         singer: "kumar sanu",
         length: "4:30",
-        image: "Assets/song3.jpeg"
+        image: "Assets/song3.jpeg",
+        viewcount:0,
     },
     {
         id: 8,
         name: "Pyaar ",
         singer: "kumar",
         length: "4:30",
-        image: "Assets/song2.jpeg"
+        image: "Assets/song2.jpeg",
+        viewcount:0,
     },
     {
         id: 9,
         name: "krish ",
         singer: "shreya ghoshal",
         length: "2:30",
-        image: "Assets/song4.jpeg"
+        image: "Assets/song4.jpeg",
+        viewcount:0,
     },
     {
         id: 10,
         name: "krish2",
         singer: "sonu nigam",
         length: "4:00",
-        image: "Assets/song3.jpeg"
+        image: "Assets/song3.jpeg",
+        viewcount:0,
     },
     {
         id: 11,
@@ -75,6 +85,7 @@ export const Database = [{
         singer: "sonu nigam",
         length: "4:00",
         image: "Assets/song3.jpeg",
+        viewcount:0,
         people:{
             "director" : "salman khan",
             "publisher" : "salman khan productions"
@@ -86,6 +97,7 @@ export const Database = [{
         singer: "sonu nigam",
         length: "4:00",
         image: "Assets/song3.jpeg",
+        viewcount:0,
         people:{
             "director" : "salman khan",
             "publisher" : "salman khan productions"
@@ -98,6 +110,7 @@ export const Database = [{
         singer: "sonu nigam",
         length: "4:00",
         image: "Assets/song3.jpeg",
+        viewcount:0,
         people:{
             "director" : "salman khan",
             "publisher" : "salman khan productions"

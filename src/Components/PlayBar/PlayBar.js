@@ -7,7 +7,7 @@ const PlayBar = () => {
     <div className="playbox">
       <input type="range" className="my-progress-bar" min="0" max="100" />
       <div className="song-icons">
-      <i class="fa-solid fa-circle-play"></i>
+      <i className="fa-solid fa-circle-play"></i>
       </div>
     </div>
   );
